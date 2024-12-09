@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div id="menu">
+            <img class="emblem" src="images/SCP-Emblem.png" alt="logo SCP">
+            <nav>
+                <a href="#log-in">Log-in</a>
+                <a href="#introduction">Introduction</a>
+                <a href="#departements">Departements</a>
+                <a href="#sites">Sites</a>
+                <a href="#anomalies">Anomalies</a>
+                <a href="#video">Vidéo</a>
+                <a href="#jeux_video">Jeux Vidéo</a>
+                <a href="#Galerie">Galerie</a>
+    
+            </nav>
+            <div id="search">
+                <input type="text" placeholder="rechercher" aria-label="boite de recherche"> </div>
+    
+    <button id="recherche">&#128269;</button>
+    </div>
+    <div id="main">
+        <div id="accueil">
+            <h1>TP2-Automne 2024</h1>
+            <h2>fait par: Cédryk Bilodeau</h2>
+            <h2>Techniques d'intégrations multimédia</h2>
+            <h2>Collège de Maisonneuve</h2>
+
+            <!--titre de ma page web-->
+            <img src="images/SCP_Foundation_Logo_v2_Fixed.png" alt="emblème SCP">
+        </div>
+       
+            
+ 
+       
+
+        <div id="log-in">
+            <h3>s'inscrire</h3>
+            <form action="traiter_form.php">
+                <label for="nom_utilisateur">nom d'utilisateur</label>
+                <input type="text" id="nom_utilisateur" name="nom">
+                <label for="fete">date de fête</label>
+                <input type="date" id="fete" name="fete"> <br>
+                <p>connessez-vous l'univers des SCP ?</p>
+                <label for="question">oui</label>   
+                <input type="radio" id="question" name="question" value="oui"><br> 
+                <label for="question">non</label>   
+                <input type="radio" id="question" name="question" value="non">
+                
+                <p>Intérêts</p>
+                <input type="checkbox" id="interet" name="interet" value="horreur">
+                <label for="horreur">horreur</label> <br>
+                <input type="checkbox" id="interet" name="interet" value="top secret">
+                <label for="top secret">top secret</label> <br>
+                <input type="checkbox" id="interet" name="interet" value="surnaturel">
+                <label for="surnaturel">surnaturel</label> <br>
+                <input type="checkbox" id="interet" name="interet" value="militaire">
+                <label for="militaire">militaire</label> <br>
+                <input type="submit" id="btn_submit" value="Soumettre"/>
+            </form>
+            
+            
+                
+               
+
+        </div><!--fin de log-in-->
+
+        <div id="introduction">
+            <h2>Qu'est-ce que les SCP ?</h2>
+            <p>SCP veut dire Secure, Contain, Protect (Sécuriser, Contenir et Protéger). Ces trois mots forme la devise de la fondation SCP, une organisation secrète capturant, emprisonnant et etudiant des anomalies(monstre, objet possedant des pouvoir, des entités, des phénomenes, des virus... etc), dans le but de protéger le monde de sa destruction. cette univers est facinant grace a toute les merveile qu'il contient grace les beaucoup trop nombreuse anomalies. la fondations donne le nom de code SCP suivi d'un numéro pour identifier les anomalies, certaine anomalie contiennet des sous anomalie engendrer par de interaction avec ces dernière.</p>
+            
+        </div><!--fin de section1-->
+
+        
+
+        <div id="departements">
+            <h2>les différent départements de la fondations</h2>
+ <div id="specialisation">
+                <div id="combatant">
+                    <h3>Département sécurité</h3>
+                    <div id="garde">
+                        <h3>garde</h3>
+                        <p>les guardes sont ceux qui sont en charge d'assurer la sécurité du sites, ils sont armer de fusil mitrailleur. ce sont eu qui soccupent de surveiller les classe-d et de monter la garde devant les checkpoints et les cellules des SCP</p>
+                        <p>les gardes on des accréditation de niveau 3 à 4 dépandament de leur rang</p>
+                        <img class="personnel" src="images/garde_du_site.png" alt="garde du site">
+                        <table>
+                            <tr>
+                                <th>beret</th>
+                                <th>rang</th>
+                                <th>niveau d'acréditation</th>
+                                <tr>
+                                    <tr>
+                                        <th>aucun</th>
+                                        <th>recrue, debutant, caporale, sergent</th>
+                                        <th>3</th>
+                                        <tr>
+                                            <tr>
+                                                <th>blanc</th>
+                                                <th>sergent</th>
+                                                <th>3</th>
+                                                <tr>
+                                                    <tr>
+                                                        <th>bourgogne</th>
+                                                        <th>capitaine</th>
+                                                        <th>3</th>
+                                                        <tr>
+                                                            <th>bleu</th>
+                                                            <th>major</th>
+                                                            <th>3</th>
+                                                            <tr>
+                                                                <th>rouge</th>
+                                                                <th>commandant</th>
+                                                                <th>4</th>
+                                                                <tr> 
+                                                                    <th>noir</th>
+                                                                    <th>Général</th>
+                                                                    <th>4</th>
+                                                                    <tr>
+                        </table>
+                        
+                    </div>
+
+                    <div id="mtf">
+                    <h3>mobile task force</h3> 
+                    <p>les mobile task forces sont des untés d'élite spécialiser dans le combat contre les scp, ils sont déployer sur les sites qui on des brèche de sécurité, avec pour objectif de recapturer et reconfiner les SCP s'étant échaper.</p>
+                    <p>il existe une grande variété d'unité de mobile task forces, tous on des spécialisation bien précise pour des type d'anomalie bien spécifique</p>
+                    <table>
+                        <tr>
+                            <th>assignation</th>
+                            <th>nom de code</th>
+                            <th>spécialisation</th>
+                            <th>symbole</th>
+                            <tr>
+                                <th>Alpha-1</th>
+                                <th>RED RIGHT HAND (LA MAIN ROUGE)</th>
+                                <th>unité d'élite, les meilleur des meilleur, garde les membre du conceil des 05, sont des soldat d'une efficacité incroyable, ne répondant qu'uniquement au ordre de 05</th>
+                                <th><img class="symbole" src="images/A-1.webp" alt="Alpha-1"></th>
+                            </tr>
+                            <tr>
+                                <th>Epsilon-11</th>
+                                <th>NINE TAIL FOX (LE RENARD A NEUF QUEU)</th>
+                                <th>spécialiser dans le reconfinement des nimporte quel SCP de classe euclide</th>
+                                <th><img class="symbole" src="images/Epsilon-11.webp" alt="Epsilon-11"></th>
+                            </tr>
+                            <tr>
+                                <th>Nu-7</th>
+                                <th>HAMMER DOWN (MARTEAU À TERRE)</th>
+                                <th>lourde puissance de feu, spécialiser pour reconfiner les SCP hautement aggressif en utilisant une grande puissance de feu et des armes lourd pour tuer ou neutraliser un SCP</th>
+                                <th><img class="symbole" src="images/Nu-7.webp" alt="Nu-7"></th>
+                            </tr>
+                            <tr>
+                                <th>Beta-7</th>
+                                <th>MAZ HATTERS</th>
+                                <th>spécialiser dans les opérations concernant des SCP ayant un risque de toxicité, virus, radioactivité, etc</th>
+                                <th><img class="symbole" src="images/Beta-7.webp" alt="Beta-7"></th>
+                            </tr>
+                    </table>
+                    
+                </div>
+                </div>
+               
+                <div id="autre">
+                    <table>
+                        <h3>autre departement</h3>
+                        <tr>
+                        <th>département</th>
+                        <th>poste</th>
+                        <th>niveau acréditation</th>
+                        <th>description</th>
+                        <th></th>
+                        <tr>
+
+                            <tr>
+                                <th>tout les départements</th>
+                                <th>05</th>
+                                <th>5</th>
+                                <th>les plus haut gradé, on l'autorité sur n'importe quel autre membre du personnel, il y a un 05 pour chaque cathégorie de membre de personnel excepté les classe-d. Leurs identité sont garder des plus secrète, ils opèrent depuis l'ombre</th>
+                                <th><img class="personnel" src="images/05.jpg" alt=""></th>
+                                <tr> 
+                                
+                                <tr>
+                                <th>département gestion</th>
+                                <th>gestionnaire de site</th>
+                                <th>5</th>
+                                <th>gère toutes la logistique du site et siège au conseil d'administration, possède une carte d'acréditation de nivaux 5</th>
+                                <th><img class="personnel" src="images/site manager.png" alt="manager du site"></th>
+                                <tr>
+                                    <tr>
+                                        <th>département recherche</th>
+                                        <th>scientifique</th>
+                                        <th>3, 4 ou 5</th>
+                                        <th><p>les scientifique observent, prennent des notes et trouvent de nouveaux moyens de contenir et tester les pouvoir des différents SCP</p>
+                                            <p>le niveau de leur carte d'accréditation dépend de leurs importance dans la hierarchie du site, la plus part des scientifique on une acréditation de niveau 3, les plus important on une acréditation de niveau 4 ou 5</p></th>
+                                        <th><img class="personnel" src="images/scientifique.png" alt="scientifique"></th>
+                                        <tr>
+
+                                            <tr>
+                                                <th>sujet de teste</th>
+                                                <th>classe-d</th>
+                                                <th>0</th>
+                                                <th>les classe-d sont des condamné a mort qui ont signé un contrat pour evité la peine de mort travaile desormais pour la fondation en tant que sujet de test, en échange on leur rend leurs liberté après dix ans, toutefois la plus part ne survivent jusque la. Ils sont comme des prisonnier et sont garder dans des cellules jusquace que les scientifique soit prêt a les faire intéragire avec des SCP. ils sont essentiel auau recherche sur les SCP.</th>
+                                                <th><img class="personnel" src="images/Dclassconcept.webp" alt="classe d"></th>
+                                                <tr>
+
+                               
+
+                                
+                    </table>  
+                </div>
+
+            </div>
+        </div><!--fin de departement-->
+
+        <div id="sites">
+            <h2>les sites de la fondation</h2>
+            <div id="zone des classe-d">
+                <h3>zone des classe-d</h3>
+                <p>les cellules des classe-d sont situer dans la zone sécuritaire du site, il on droit a de la mnouriture dans leur cafeteria, leurs cellules sont surveiller par des gardes, c'est ici que les scientifique viennent chercher les classe-d qui sont ensuite escorter vers les zone de confinement</p>
+                <img class="lieu" src="images/cdc.jpg" alt="la zone des classe-d">
+                <img class="lieu" src="images/checkpoint.jpg" alt="checkpoint de la zone des classe-d">
+            </div>
+            <div id="zone de confinement léger">
+                <h3>zone de confinement léger</h3>
+                <p>c'est ici que les SCP de classe Safe sont contenu, la plus part des SCP dans cette zone ne sont pas dangereux ou ne représente qu'une faible menace, on y retrouve également certain SCP de classe euclide</p>
+                <p>cette zone est accessible pour les niveau d'acréditation 2 ou supérieur, toutefois l'acréditation des cellules des SCP peuvent nécéssiter une acréditation de nivaux 3 ou supérieur</p>
+                <img class="lieu" src="images/Light.webp" alt="checkpoint de la zone de confinement léger">
+            </div>
+            <div id="zone de confinement lourd">
+                <h3>zone de confinement lourd</h3>
+                <p>c'est ici que les SCP les plus dangereux sont détenu, cette zone contient plus de gardes et plus de porte blindé antibrèche qui se ferment en cas d'alerte, les SCP de classification Keter ce trouvent dans cette zone ainsi que la grande majorité des SCP de classe Euclide</p>
+                <img class="lieu" src="images/checkpointheavy.png" alt="checkpoint de la zone de confinement lourd">
+            </div>
+
+           <h2>différentes carte de sites</h2>
+           <img class="carte" src="images/carte.jpg" alt="carte d'un site">
+           <img class="carte" src="images/carte.site 46.jpg" alt="carte du site 46">
+        </div><!--fin de sites-->
+
+        <div id="anomalies">
+            <h2>Les anomalies</h2>
+            
+            <h2>les classifications des SCP</h2>
+            <p>les classifications servent a indiquer le niveau de difficulter a guarder un SCP en confinement, ces status ne représente pas nécessairement le nivaux de danger qu'il représente</p>
+             <div id="classifications">
+              
+                <div id="safe">
+                    <h3>classe: safe</h3>
+                    <p>la classe Safe est attribuer a un SCP qui ne bouge pas ou ne représente aucun danger si il n'est pas mis en confinement. </p>
+                    <p>certain SCP de cette classe on le droit de se promenner sur le site ou ils sont confiner.</p>
+                    <p> toutefois la plus part des SCP de cette classe sont des objet et sont donc très facile a contenir</p>
+                    <img class="symbole" src="images/safe.jpg" alt="symbole safe">
+                </div><!--  fin de  safe-->
+
+                <div id="euclide">
+                    <h3>classe: euclide</h3>
+                    <p>les SCP classer comme Euclide sont les SCP dangereux mais toutefois capable d'être contenu asser facilement avec des procédure de confinement adéquates</p>
+                    <img class="symbole" src="images/euclide.jpg" alt="symbole euclide">
+                </div><!--  fin de  euclide-->
+
+                <div id="keter">
+                    <h3>classe: keter</h3>
+                    <p>les SCP classer comme Keter sont les plus dangereux, ils sont très dur a confiner, s'échapent souvent, peuvent causer des catastrophe si ils s'échapent, etc...</p>
+                    <img class="symbole" src="images/keter.jpg" alt="symbole keter">
+                </div><!--  fin de  keter-->
+
+                <div id="thaumiel">
+                    <h3>classe: thaumiel</h3>
+                    <p>les SCP de classe Thaumiel sont des SCP qui peuvent être utiliser pour confiner d'autre SCP.</p>
+                    <img class="symbole" src="images/thaumiel.jpg" alt="symbole thaumiel">
+                </div><!--  fin de  thaumiel-->
+             </div> <!-- fin de classifications -->
+
+             <h3>voici quelques anomalie parmi les plus connues</h3>
+            <div id="SCP">
+              <table>
+                    <tr>
+                        <th>assignation</th>
+                        <th>nom de code</th>
+                        <th>classe</th>
+                        <th>description</th>
+                        <th>photo</th>
+                    </tr>
+                    <tr>
+                        <th>SCP-999</th>
+                        <th>the tickle monster (le monstre au chatouille)</th>
+                        <th>Safe</th>
+                        <th>un petit monstre orange et gelatineux, ceux qui le touche deviennent heureux, au fil du temps il a été observer que cela peut guérir des traumatisme mentaux sur les gens en contacte avec 999 </th>
+                        <th><img class="scp" src="images/scp999.jpg" alt="SCP-999"></th>
+                    </tr>
+                    <tr>
+                        <th>SCP-939</th>
+                        <th>with many voice (avec plusieur voix)</th>
+                        <th>Keter</th>
+                        <th>des prédateurs a la peau translucide laissant voir leurs muscle, au dents en forme de crochets, au arrêtte dorsale pointu, une morsure de plus de 35 MPa et ayant la capacité d'immiter les voix des humains. Se reproduit beaucoup et est donc dangereux si jamais ils s'échappent</th>
+                        <th><img class="scp" src="images/scp939.jpg" alt="SCP 939"></th>
+                    </tr>
+                    <tr>
+                        <th>SCP-682</th>
+                        <th>hard to kill reptile (le reptile dur a tuer)</th>
+                        <th>Keter</th>
+                        <th>un reptile connue a travers toute la fondation pour l'extreme danger qu'il représente et la trèes grande difficulter a le tuer, 682 déteste les humain. 682 possède un pouvoir de régénération qui le rend invincible jusqu'ici et une très grande force physique. afin de le garder en confinemment 682 doit être plonger dans l'acide pour contrer son pouvoir de régénération et l'affaiblir</th>
+                        <th><img class="scp" src="images/682.webp" alt="SCP 682"></th>
+                    </tr>
+                    <tr>
+                        <th>SCP-173</th>
+                        <th>the sculpture (la sculture)</th>
+                        <th>Euclide</th>
+                        <th>une statue constituer de bare d'armature et de béton ayant des trace de peinture aérosole. scp 173 est extrèmement hostile, toutefois il ne peut pas bouger tant qu'il se trouven dans le champ visuel direct de quelqu'un. Il est imperatif que le champ visuel ne soit pas interompu, même par un clignement d'yeux pourait signifier la mort de l'observateur. 173 attaque en brisant le cou au niveau de la nuque ou par srangulation</th>
+                        <th> <img class="scp" src="images/Scp-173.webp" alt="SCP 173"></th>
+                    </tr>
+                    <tr>
+                        <th>SCP-096</th>
+                        <th>shy guy (l'homme gèner)</th>
+                        <th>Keter</th>
+                        <th>096 est une créature humanoïde mesurant approximativement 2,38 mètres de haut, il ne possède qu'une faible masse musculaire, ses bras mesure 1,5 mètres et sont largement disportionner par raport a son corps, son corps est cractériser par labsence de couleur et de poils. 096 est la plus part du temps completement docile, mais lorsque quelqu'un regarde son visage, que ce soit directement, par vidéo, photo ou même enregistrement, 096 il rentrera dans un état de stress émotionnel considérable. SCP-096 cachera le visage avec ses mains et se mettra à hurler, pleurer et marmonner de façon incohérente. Approximativement une 1 à deux 2 minutes après que l'individu ait vu son visage, SCP-096 commencera à courir vers la personne ayant vu son visage et plus riens ne poura l'arrêter de procéder a la destruction de l'individu l'ayant regarder. lorqu'il aura terminer et qu'il ne restera plus rien que du sang, 096 retournera ensuite a son état de docilité</th>
+                        <th><img class="scp" src="images/Scp_096.webp" alt="SCP 096"></th>
+                    </tr>
+                    <tr>
+                        <th>SCP-049</th>
+                        <th>the plague doctor(le docteur de la peste)</th>
+                        <th>Euclide</th>
+                        <th>049 est une créature humanoïde, d'environ 1,9 mètre de hauteur, répondant à la description d'un médecin de peste médiéval. 049 se montre généralement cordial et coopératif avec le personnel de la Fondation, il peut s'irriter grandement ou parfois devenir agressif s'il sent qu'il est en présence de ce qu'il appelle la "Pestilence", il devient alors hostile envers les sujet qu'il voit comme infecté. un simple touché de 049 sufit a faire stoper les fonction vitale d'un individu, après avoir eliminer l'"infecter il menera une opération chirurgicale sur le corps en utilisant le matériel contenu dans une mallette de médecin noire qu'il porte sur sa personne en toutes circonstances. ces opérations résultent souvent en la création d'instances de 049-2, les 049-2 sont des cadavre réanimer ayant une mobilité motrice de basique.</th>
+                        <th><img class="scp" src="images/scp049.jpg" alt="SCP 049"></th>
+                    </tr>
+                  
+                </table>
+            </div>
+        </div><!--fin de anomalie-->
+
+        <div id="video">
+            <h2> vidéo montrant quelque SCP</h2>
+            <video controls width="800">
+                <source src="vidéo/In the Pines an SCP Animation.mp4" type="video/webm" />
+        </div><!--fin de section6-->
+
+        
+
+        <div id="jeux_video">
+            <h2>meilleurs jeux vidéo sur l'univers scp</h2>
+            <table>
+               <tr>
+                <th>jeu vidéo</th>
+                <th>plateforme</th>
+               </tr>
+
+               <tr>
+                <th>SCP: secret laboratory</th>
+                <th>Steam</th>
+               </tr>
+               <tr>
+                <th>SCP: containement breach</th>
+                <th>Steam</th>
+               </tr>
+               
+               <tr>
+                <th>SCP: pandemic</th>
+                <th>Steam</th>
+               </tr>
+
+               <tr>
+                <th>SCP: roleplay</th>
+                <th>Roblox</th>
+               </tr>
+            </table>
+            
+        </div><!--fin de section8-->
+        
+        <div id="Galerie">
+            <h2>Galerie</h2>
+            <div id="Images">
+            <img class="galerie" src="images/mtf2.jpeg" alt="mobile task force">
+            <img class="galerie" src="images/mtf3.jpeg" alt="mobile task force">
+            <img class="galerie" src="images/mtf5.jpg" alt="mobile task force">
+            <img class="galerie" src="images/mtf6.jpg" alt="mobile task force">
+            <img class="galerie" src="images/05-meeting.jpg" alt="réunion des 05">
+             <img class="galerie" src="images/05council.jpg" alt="conceil des 05">
+            <img class="galerie" src="images/scp682.webp" alt="scp 682"></div>
+        </div><!--fin de galerie-->
+
+        <footer >
+           <p> Collège Maisonneuve: 3800 rue sherbrooke Est</p>
+            référence information sur les scp: <a class="referance" href="https://scp-db.fandom.com/wiki/">https://scp-db.fandom.com/wiki/</a>
+            <p>confidentialité: votre nom d'utilisateur cera masquer au autre utilisateurs</p>
+            <div id="logo">
+                <img class="sociaux" src="images/logo-youtube.svg" alt="youtube">
+                <img class="sociaux" src="images/logo-facebook.svg" alt="facebook">
+                <img class="sociaux" src="images/logo-instagram.svg" alt="instagram">
+            </div>
+            
+        </footer><!--fin de footer-->
+
+    </div>    <!--fin de main -->
+</body>
+</html>

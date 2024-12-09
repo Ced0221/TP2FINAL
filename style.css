@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.emblem{
+    width: 70px;
+}
+ .lieu{
+    width: 400px;
+}
+
+.symbole{
+    width: 150px;
+}
+
+.personnel{
+    width: 300px;
+    height: 250px;    
+}
+
+.scp{
+    width: 300px;
+    height: 250px;
+}
+
+.carte{
+    width: 45%;
+}
+
+.galerie{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+}
+.sociaux{
+    width: 50px;
+}
+
+.referance{
+    color: red;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+       /* background-image:url(images/fondderoche.png);
+      background-size: cover;  */
+    background-color: rgb(150, 29, 29); 
+}
+
+
+#menu{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.emblem:hover{
+transform: scale(2) translate(100px);
+
+}
+
+#accueil{
+padding: 140px 0px 0px 0px;
+width: 100%;
+height: fit-content;
+background-color: black;
+}
+
+
+ 
+#accueil img{
+    width: 40%;
+}
+a{
+    margin: 5px;
+    color: red;
+}
+a:hover{
+    color: white;
+}
+
+#emblem{
+    background-color: white;
+}
+
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+}
+#log-in{
+    border: 5px solid black;
+    
+}
+
+#recherche{
+    background-color: white;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+#introduction{
+    display: flex;
+    flex-direction: column;
+}
+
+#departements{
+border: 5px solid black;
+}
+#specialisation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#Recherche{
+    width: 45%;
+}
+
+#combatant{
+    display: flex;
+    flex-direction: row;
+}
+#autre th{
+    background-image: url(images/marbrenoir.jpg);
+    background-size: cover;
+}
+
+#sites{
+    border: 5px solid black;
+    
+}
+
+#anomalies{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+}
+#SCP{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url(images/peinturerougesurnoir.jpg);
+    background-size: cover;
+}
+
+
+#classifications{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url(images/metalgris.jpg);
+    background-size: cover;
+   
+}
+#safe{
+    border: 5px solid black;
+}
+#euclide{
+    border: 5px solid black;
+}
+#keter{
+    border: 5px solid black;
+}
+#thaumiel{
+    border: 5px solid black;
+}
+
+
+#video{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/ink-8435869_1280.webp);
+    background-size: cover;
+}
+#jeux_video{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Galerie{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(images/1.webp);
+    background-size: 500px;
+}
+#Images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer{
+    padding: 5px;
+    border: 5px solid black;
+    color: black;
+    background-color: white;
+}
+footer p{
+    color: black;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    margin: 5px 0px;
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+th{
+    border: 5px solid black;
+}
